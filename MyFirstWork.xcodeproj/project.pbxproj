@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10566161CD36330002B0D98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B10566151CD36330002B0D98 /* Default-568h@2x.png */; };
 		B19554211C849D8800E39233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19554201C849D8800E39233 /* AppDelegate.swift */; };
 		B19554231C849D8800E39233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19554221C849D8800E39233 /* ViewController.swift */; };
 		B19554261C849D8800E39233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19554241C849D8800E39233 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B10566151CD36330002B0D98 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B195541D1C849D8800E39233 /* MyFirstWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19554201C849D8800E39233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B19554221C849D8800E39233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		B19554141C849D8800E39233 = {
 			isa = PBXGroup;
 			children = (
+				B10566151CD36330002B0D98 /* Default-568h@2x.png */,
 				B195541F1C849D8800E39233 /* MyFirstWork */,
 				B195541E1C849D8800E39233 /* Products */,
 			);
@@ -61,8 +64,7 @@
 				B19554291C849D8800E39233 /* LaunchScreen.storyboard */,
 				B195542C1C849D8800E39233 /* Info.plist */,
 			);
-			name = MyFirstWork;
-			path = colors;
+			path = MyFirstWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B195542B1C849D8800E39233 /* LaunchScreen.storyboard in Resources */,
+				B10566161CD36330002B0D98 /* Default-568h@2x.png in Resources */,
 				B19554281C849D8800E39233 /* Assets.xcassets in Resources */,
 				B19554261C849D8800E39233 /* Main.storyboard in Resources */,
 			);
@@ -249,7 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = colors/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyFirstWork/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.colors;
 				PRODUCT_NAME = MyFirstWork;
@@ -260,7 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = colors/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyFirstWork/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.colors;
 				PRODUCT_NAME = MyFirstWork;
